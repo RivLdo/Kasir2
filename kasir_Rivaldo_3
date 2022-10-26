@@ -99,7 +99,7 @@ while True:
         print(minuman[pilihMenu])  
     
     jumlahBarang = int(input("Jumlah barang: "))
-    if jumlahBarang == 0:
+    if jumlahBarang <= 0:
         print("Jumlah barang tidak valid")
         continue
     else:
